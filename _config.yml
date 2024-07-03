@@ -1,6 +1,5 @@
 # _config.yml
 title: "MartynNotes"
-description: "I’m Martyn Figueiredo, a passionate IT professional and this is my blog."
 baseurl: ""
 url: "https://martynnotes.com"
 theme: minima
