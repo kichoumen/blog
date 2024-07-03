@@ -1,4 +1,3 @@
-# MartynNotes
 ## Hi there 👋
 
 <!--
