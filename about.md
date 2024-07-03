@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-# About MartynNotes
-
 Welcome to **MartynNotes**!
 
 I’m Martyn Figueiredo, a passionate IT professional and this is my blog.
