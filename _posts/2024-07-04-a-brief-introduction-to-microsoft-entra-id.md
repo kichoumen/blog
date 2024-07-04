@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Very Beginning of Microsoft Entra ID"
+title: "A Brief Introduction to Microsoft Entra ID"
 date: 2024-07-04 10:50:00 -0000
 categories: blog, azure
 ---
