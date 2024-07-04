@@ -28,7 +28,7 @@
   },
   {
     "src": "apple-touch-icon.png",
-    "sizes": "180x180", // Apple icon size requirement
+    "sizes": "180x180",
     "type": "image/png"
   }
     ],
