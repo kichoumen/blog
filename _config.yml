@@ -6,3 +6,7 @@ baseurl: ""
 url: "https://martynnotes.com"
 theme: minima
 footer_text: "martynnotes.com All rights reserved. 2024."
+github_username: martynnotes
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
