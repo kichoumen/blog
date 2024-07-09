@@ -2,6 +2,7 @@
 layout: post
 title: "The Power of Micro Learning and the Importance of Consistency"
 date: 2024-07-09
+categories: blog, azure, learn, dba
 ---
 
 ![image](https://github.com/martynnotes/blog/assets/17051719/822bd8df-4f02-4f34-807e-0bb511945adf)
