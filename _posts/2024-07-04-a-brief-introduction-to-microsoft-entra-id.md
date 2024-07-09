@@ -44,4 +44,4 @@ So, if you're looking for a solution to manage identities and access in your org
 
 I hope this blog post was helpful. If you have any questions, feel free to ask. Thanks for reading!
 
-Peace :v:
+Peace ✌️
