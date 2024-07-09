@@ -5,7 +5,8 @@ date: 2024-07-04 10:50:00 -0000
 categories: blog, azure
 ---
 
-![e86117f9-1009-40a4-883d-af73c02bf763](https://github.com/martynnotes/blog/assets/17051719/9917e546-ceae-4d2d-a2de-81d64b4cb43f)
+![image](https://github.com/martynnotes/blog/assets/17051719/66943039-f5f6-44b3-b902-f63b60690557)
+
 
 
 # Introduction to Microsoft Entra ID on Azure
