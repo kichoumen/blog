@@ -2,8 +2,7 @@
 layout: post
 title: " (Not) Using `nvarchar(max)` in SQL Server and Azure SQL Databases"
 date: 2024-07-29
-categories: SQL Server, Azure SQL Database
-tags: nvarchar(max), database
+categories: SQL-Server, Azure-SQL-Database
 ---
 
 ![image](https://github.com/user-attachments/assets/6d6a0112-6fc7-4aaf-ab8a-abff3740367b)
