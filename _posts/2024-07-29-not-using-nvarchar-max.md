@@ -17,4 +17,22 @@ For most applications, it's better to avoid `nvarchar(max)` unless absolutely ne
 
 So, while `nvarchar(max)` provides flexibility, its high memory usage and potential performance issues make it less ideal for many scenarios. By choosing more appropriately sized data types and indexing strategies, you can ensure your database remains efficient and responsive.
 
+Here's a small query that can be used to identify all columns that are using `nvarchar(max)` type in your database:
+
+```SQL
+USE [databaseName]
+GO
+
+SELECT TABLE_SCHEMA
+	,TABLE_NAME
+	,COLUMN_NAME
+	,DATA_TYPE
+	,CHARACTER_MAXIMUM_LENGTH
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE DATA_TYPE = 'nvarchar'
+	AND CHARACTER_MAXIMUM_LENGTH = - 1;
+```
+
+Then after getting the results you can choose the best action for each one. Be careful!
+
 Peace ✌️
