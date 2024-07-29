@@ -33,6 +33,6 @@ WHERE DATA_TYPE = 'nvarchar'
 	AND CHARACTER_MAXIMUM_LENGTH = - 1;
 ```
 
-Then after getting the results you can choose the best action for each one. Be careful!
+Then after getting the results you can choose the best action for each one. Also note that it can be done for other types, just like `varchar(max)`, and other databases, just like MySQL, PostgreSQL or Oracle. Be careful!
 
 Peace ✌️
