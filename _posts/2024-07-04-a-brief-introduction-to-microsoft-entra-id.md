@@ -2,7 +2,7 @@
 layout: post
 title: "A Brief Introduction to Microsoft Entra ID"
 date: 2024-07-04 10:50:00 -0000
-categories: blog, azure
+categories: azure
 ---
 
 ![image](https://github.com/martynnotes/blog/assets/17051719/66943039-f5f6-44b3-b902-f63b60690557)
