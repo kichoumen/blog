@@ -5,6 +5,9 @@ date: 2024-08-03
 categories: [database-performance]
 ---
 
+![Screenshot 2024-08-04 104729](https://github.com/user-attachments/assets/e185e73f-8b28-4d27-a9a2-6270131b794c)
+
+
 Ever wondered if you should use `COUNT(*)` or `COUNT(1)` in your SQL queries? Let's clear up the confusion, especially when it comes to performance.
 
 Both `COUNT(*)` and `COUNT(1)` are used to count rows in a table. The difference? `COUNT(*)` counts all rows, including NULLs, while `COUNT(1)` counts by evaluating the constant `1` for each row. Here’s how they look using the AdventureWorks database:
