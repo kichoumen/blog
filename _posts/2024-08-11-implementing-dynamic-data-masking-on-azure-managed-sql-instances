@@ -54,3 +54,5 @@ Let’s walk through an example using the `Sales.CreditCard` table from the Adve
    ```
 
    Dynamic Data Masking is a straightforward and effective way to protect sensitive information in your Azure Managed SQL Instances. It’s easy to implement and can help you meet compliance requirements by ensuring that non-privileged users can’t see confidential data. Give it a try to enhance the security of your databases!
+
+Peace ✌️
