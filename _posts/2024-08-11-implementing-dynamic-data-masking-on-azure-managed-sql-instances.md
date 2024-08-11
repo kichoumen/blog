@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Implementing Dynamic Data Masking on Azure Managed SQL Instances"
-date: 2024-07-30
+date: 2024-08-11
 categories: [database-security]
 ---
 
