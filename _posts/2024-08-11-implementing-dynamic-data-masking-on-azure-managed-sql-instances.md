@@ -5,7 +5,7 @@ date: 2024-07-30
 categories: [database-security]
 ---
 
-![Implementing Dynamic Data Masking on Azure Managed SQL Instances](C:\Users\marty\Downloads\Screenshot 2024-08-11 201259.png)
+![Screenshot 2024-08-11 201259](https://github.com/user-attachments/assets/4320501b-fac0-4dbb-b976-cbf53891bdbb)
 
 Dynamic Data Masking (DDM) is a powerful feature in Azure SQL Database that helps protect sensitive data from unauthorized access by masking it in query results. This is especially useful for preventing non-privileged users from viewing confidential information while still allowing them to perform essential database operations.
 
