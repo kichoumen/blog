@@ -11,7 +11,7 @@ Dynamic Data Masking (DDM) is a powerful feature in Azure SQL Database that help
 
 ### What is Dynamic Data Masking?
 
-Dynamic Data Masking automatically obfuscates data in the result set of a query. For instance, if you have a column with credit card numbers, you can mask the data so that users only see a portion of the number, while the rest is replaced with a masking character like `X`.
+[Dynamic Data Masking](https://learn.microsoft.com/en-us/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql) automatically obfuscates data in the result set of a query. For instance, if you have a column with credit card numbers, you can mask the data so that users only see a portion of the number, while the rest is replaced with a masking character like `X`.
 
 ### Implementing Dynamic Data Masking
 
