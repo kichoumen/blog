@@ -5,6 +5,9 @@ date: 2024-08-21
 categories: [database-performance]
 ---
 
+![Screenshot 2024-08-21 170242](https://github.com/user-attachments/assets/1a92179c-9c53-42f6-a405-10c7328ce7f8)
+
+
 When working with Azure SQL Database, a key concept you'll encounter is Database Transaction Units, or DTUs. Understanding DTUs is crucial for optimizing both performance and cost, so let's break it down in an accessible way.
 
 ### What Are DTUs?
