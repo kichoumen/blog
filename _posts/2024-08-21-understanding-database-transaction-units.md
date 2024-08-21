@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding Database Transaction Units (DTUs) in Azure SQL Database"
-date: 2024-08-17
+date: 2024-08-21
 categories: [database-performance]
 ---
 
