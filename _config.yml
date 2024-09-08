@@ -1,12 +1,12 @@
 # _config.yml
-title: "MartynNotes"
-author: Martyn Rangel Figueiredo
-author_email: hi@martynnotes.com
+title: "logs98"
+author: Martyn
+author_email: root@logs98.com
 baseurl: ""
-url: "https://martynnotes.com"
+url: "https://rss.logs98.com"
 theme: minima
-footer_text: "martynnotes.com All rights reserved. 2024."
-github_username: martynnotes
+footer_text: "logs98.com All rights reserved. 2024."
+github_username: logs98
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
