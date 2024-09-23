@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Welcome to **logs98**!
+Welcome to **Iron Sentinel**!
 
 I’m Martyn, a passionate IT professional and this is my blog.
 
