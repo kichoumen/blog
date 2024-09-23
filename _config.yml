@@ -1,6 +1,6 @@
 # _config.yml
 title: "Iron Sentinel"
-author: _
+author: 
 author_email: martyn@ironsentinel.dev
 baseurl: ""
 url: "https://ironsentinel.dev"
