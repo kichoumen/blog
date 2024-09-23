@@ -1,12 +1,12 @@
 # _config.yml
-title: "logs98"
-author: by root
-author_email: root@logs98.com
+title: "Iron Sentinel"
+author: martyn
+author_email: martyn@ironsentinel.dev
 baseurl: ""
-url: "https://rss.logs98.com"
+url: "https://ironsentinel.dev"
 theme: minima
-footer_text: "logs98.com All rights reserved. 2024."
-github_username: logs98
+footer_text: "ironsentinel.dev All rights reserved. 2024."
+github_username: ironsentineldev
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
