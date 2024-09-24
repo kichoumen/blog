@@ -1,6 +1,6 @@
 # _config.yml
 title: "Iron Sentinel"
-author: 
+author: Martyn
 author_email: martyn@ironsentinel.dev
 baseurl: ""
 url: "https://ironsentinel.dev"
@@ -20,6 +20,8 @@ share-links-active:
   twitter: true
   email: true
   whatsapp: true
+
+rss-description: This website is a virtual proof that I'm awesome
 
 excerpt_length: 100
 
