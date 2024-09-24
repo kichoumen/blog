@@ -16,10 +16,6 @@ plugins:
 
 share-links-active:
   linkedin: true
-  reddit: true
-  twitter: true
-  email: true
-  whatsapp: true
 
 rss-description: This website is a virtual proof that I'm awesome
 
