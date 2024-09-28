@@ -1,12 +1,12 @@
 # _config.yml
-title: "Iron Sentinel"
-author: Martyn
-author_email: martyn@ironsentinel.dev
+title: "Martyn Note"
+author: 2024
+author_email: hi@martynnotes.com
 baseurl: ""
-url: "https://ironsentinel.dev"
+url: "https://martynnotes.com"
 theme: minima
-footer_text: "ironsentinel.dev All rights reserved. 2024."
-github_username: ironsentineldev
+footer_text: "martynnotes.com All rights reserved. 2024."
+github_username: martynnotes
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
