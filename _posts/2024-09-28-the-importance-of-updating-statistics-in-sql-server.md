@@ -64,9 +64,9 @@ ORDER BY
 
 SQL Server provides options to automatically create and update statistics:
 
-* **Auto Create Statistics**: It is generally recommended to enable this option as it helps the query optimizer make better decisions by automatically creating statistics on columns used in query predicates. It creates statistics that name starts with `_WA`. However, in high-transaction environments, enabling this option might cause performance overhead. Monitor the impact on your workload to ensure it does not negatively affect performance.
+* **Auto Create Statistics**: It is generally recommended to enable this option as it helps the query optimizer make better decisions by automatically creating statistics on columns used in query predicates, as the default value is `ON`. It creates statistics that name starts with `_WA`. However, in high-transaction environments, enabling this option might cause performance overhead. Monitor the impact on your workload to ensure it does not negatively affect performance.
 
-* **Auto Update Statistics**: Enabling this option is recommended because it ensures that the query optimizer has the most current information by automatically updating statistics when they are out of date. This helps maintain query performance. However, be cautious in high-transaction environments as frequent updates might introduce overhead.
+* **Auto Update Statistics**: Enabling this option is recommended because it ensures that the query optimizer has the most current information by automatically updating statistics when they are out of date. This helps maintain query performance. However, be cautious in high-transaction environments as frequent updates might introduce overhead. It's worth reading about [AUTO_UPDATE_STATISTICS](https://learn.microsoft.com/en-us/sql/t-sql/statements/alter-database-transact-sql-set-options?view=sql-server-ver16#auto_update_statistics) in the SQL Server documentation.
 
 * **Auto Update Statistics Asynchronously**: By default, the value is `OFF`. This option is recommended if you want to allow queries to proceed without waiting for the statistics update to complete. It updates statistics in the background, which can be beneficial in reducing query wait times. However, ensure that your workload can tolerate the slight delay in statistics updates.
 
