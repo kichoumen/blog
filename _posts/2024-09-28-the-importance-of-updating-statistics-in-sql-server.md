@@ -5,6 +5,7 @@ date: 2024-09-28
 categories: database-performance
 ---
 
+![OIG3 YVf 6e7K](https://github.com/user-attachments/assets/cfb92764-285a-46d0-8e77-a83c28c9d41a)
 
 
 When working with SQL Server, it's crucial to keep your statistics up to date. [Statistics](https://learn.microsoft.com/en-us/sql/relational-databases/statistics/statistics?view=sql-server-ver16) help the SQL Server query optimizer make informed decisions about the best way to execute a query. Outdated statistics can lead to inefficient query plans and poor performance.
