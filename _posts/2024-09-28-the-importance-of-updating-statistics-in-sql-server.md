@@ -46,6 +46,8 @@ GO
 
 This query will give you a comprehensive view of your indexes, including their types, the number of rows in the tables they belong to, and their usage statistics. Keeping an eye on this information can help you maintain optimal performance in your SQL Server database.
 
+[Creating Statistics](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-statistics-transact-sql?view=sql-server-ver16)
+
 Filtering by Specific Table
 If you want to filter the results by a specific table, you can add a WHERE clause to the query. For example, to filter by a table named `SalesOrderDetail`, you can modify the query as follows:
 
@@ -62,11 +64,11 @@ ORDER BY
 
 SQL Server provides options to automatically create and update statistics:
 
-* **Auto Create Statistics**: It is generally recommended to enable this option as it helps the query optimizer make better decisions by automatically creating statistics on columns used in query predicates. However, in high-transaction environments, enabling this option might cause performance overhead. Monitor the impact on your workload to ensure it does not negatively affect performance.
+* **Auto Create Statistics**: It is generally recommended to enable this option as it helps the query optimizer make better decisions by automatically creating statistics on columns used in query predicates. It creates statistics that name starts with `_WA`. However, in high-transaction environments, enabling this option might cause performance overhead. Monitor the impact on your workload to ensure it does not negatively affect performance.
 
 * **Auto Update Statistics**: Enabling this option is recommended because it ensures that the query optimizer has the most current information by automatically updating statistics when they are out of date. This helps maintain query performance. However, be cautious in high-transaction environments as frequent updates might introduce overhead.
 
-* **Auto Update Statistics Asynchronously**: This option is recommended if you want to allow queries to proceed without waiting for the statistics update to complete. It updates statistics in the background, which can be beneficial in reducing query wait times. However, ensure that your workload can tolerate the slight delay in statistics updates.
+* **Auto Update Statistics Asynchronously**: By default, the value is `OFF`. This option is recommended if you want to allow queries to proceed without waiting for the statistics update to complete. It updates statistics in the background, which can be beneficial in reducing query wait times. However, ensure that your workload can tolerate the slight delay in statistics updates.
 
 These options can be beneficial for maintaining performance without manual effort. However, in high-transaction environments, **automatic updates might cause performance overhead**. It's essential to monitor and decide based on your specific workload. **Nothing beats knowing your own surroundings and tailor-made tuning**. Regularly updating your statistics is a simple yet effective way to ensure your queries run efficiently. By keeping your statistics up to date, you help the SQL Server query optimizer make the best decisions, leading to better performance.
 
